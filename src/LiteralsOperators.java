@@ -26,7 +26,7 @@ public class LiteralsOperators {
         ch = 0X14;
         System.out.println(ch);
 
-        System.out.println("------------------------------");
+        System.out.println("--------------------------------");
 
         // Bitwise Operators
         int i1 = 11; // i1 = 1011
