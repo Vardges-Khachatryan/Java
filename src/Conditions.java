@@ -89,7 +89,7 @@ public class Conditions {
         // Determine the maximum value of the var, var1, var2, var3
         int max1;
         int temp = var > var1 ? var : var1;
-        int temp1 = var2 > var1 ? var2 : var3;
+        int temp1 = var2 > var3 ? var2 : var3;
         max1 = temp > temp1 ? temp : temp1;
 
         System.out.println("max value is " + max1);
