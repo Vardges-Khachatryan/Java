@@ -33,7 +33,7 @@ public class Conditions {
         int side1 = 10;
         int side2 = 15;
 
-        if (side + side1 >= side2 && side + side2 >= side1 && side1 + side2 >= side) {
+        if (side + side1 > side2 && side + side2 > side1 && side1 + side2 > side) {
             System.out.println("It's possible to get triangle");
         } else {
             System.out.println("It's  impossible to get triangle");
@@ -41,7 +41,7 @@ public class Conditions {
 
         // or
         String str;
-        str = side + side1 >= side2 && side + side2 >= side1 && side1 + side2 >= side ? "possible" : "impossible";
+        str = side + side1 > side2 && side + side2 > side1 && side1 + side2 > side ? "possible" : "impossible";
         System.out.println("It's " + str + " to get triangle");
 
 
