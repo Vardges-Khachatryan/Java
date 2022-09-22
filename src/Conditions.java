@@ -103,6 +103,8 @@ public class Conditions {
 
         System.out.println("min value is " + min1);
 
+
+
     }
 
 }
