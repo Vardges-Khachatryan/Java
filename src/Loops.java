@@ -1,5 +1,5 @@
 public class Loops {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         // Find even numbers between 0 and 100
         for (int i = 0; i < 100; i++) {
@@ -197,11 +197,11 @@ public class Loops {
             System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
         }
 
-
+        }
     }
 
 
-}
+
 
 
 
