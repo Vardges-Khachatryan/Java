@@ -1,15 +1,15 @@
 public class Methods {
 
     // All uppercase
-    void uppercase(char firstLetter, char lasLetter ) {
-        for (char ch = firstLetter; ch <= lasLetter; ch++) {
+    void uppercase(char firstLetter, char lastLetter ) {
+        for (char ch = firstLetter; ch <= lastLetter; ch++) {
             System.out.print(ch + " ");
         }
     }
 
     // All lowercase
-    void lowercase(char firstLetter, char lasLetter) {
-        for (char ch = firstLetter; ch <= lasLetter; ch++) {
+    void lowercase(char firstLetter, char lastLetter) {
+        for (char ch = firstLetter; ch <= lastLetter; ch++) {
             System.out.print(ch + " ");
         }
     }
