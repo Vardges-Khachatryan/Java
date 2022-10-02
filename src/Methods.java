@@ -1,15 +1,15 @@
 public class Methods {
 
     // All uppercase
-    void uppercase() {
-        for (char ch = 'A'; ch <= 'Z'; ch++) {
+    void uppercase(char firstLetter, char lasLetter ) {
+        for (char ch = firstLetter; ch <= lasLetter; ch++) {
             System.out.print(ch + " ");
         }
     }
 
     // All lowercase
-    void lowercase() {
-        for (char ch = 'a'; ch <= 'z'; ch++) {
+    void lowercase(char firstLetter, char lasLetter) {
+        for (char ch = firstLetter; ch <= lasLetter; ch++) {
             System.out.print(ch + " ");
         }
     }
@@ -50,10 +50,22 @@ class Object{
 
         int [] newArray = {2,3,6,9,1,4,7,5,8};
 
-        firstObject.uppercase();
+        System.out.println("Armenian letters");
+        firstObject.uppercase('Ա','Ֆ'); // Armenian
         System.out.println();
-        firstObject.lowercase();
+        firstObject.lowercase('ա','ֆ'); // Armenian
         System.out.println();
+        System.out.println("English letters");
+        firstObject.uppercase('A','Z'); // English
+        System.out.println();
+        firstObject.lowercase('a','z'); // English
+        System.out.println();
+        System.out.println("Russian letters");
+        firstObject.uppercase('А','Я'); // Russian
+        System.out.println();
+        firstObject.lowercase('а','я'); // Russian
+        System.out.println();
+
 
         boolean answer = firstObject.isFirstMax(7,7);
         System.out.println("Answer is " + answer);
