@@ -26,3 +26,22 @@ public class Homework {
     }
 
 }
+
+class HomeworkDemo{
+    public static void main(String[] args) {
+
+        Homework firstObject = new Homework();
+
+        int [] array = {1,3,6,9,8,5,4,1,2,5,8,7};
+
+        firstObject.getNumber(array,15);
+        firstObject.sortArray(array);
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+
+
+
+    }
+}
