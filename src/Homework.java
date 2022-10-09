@@ -1,14 +1,15 @@
 public class Homework {
 
     // Find number in array
-    void getNumber(int[] array, int a) {
+    boolean isNumberInArray(int[] array, int number) {
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == a) {
-                System.out.println("Yes " + a + " is in array");
-                break;
+            if (array[i] == number) {
+                return true;
             }
+
         }
-        System.out.println("No " + a + " is not in array");
+        return false;
+
     }
 
     // Java program to sort a numeric array
@@ -34,7 +35,7 @@ class HomeworkDemo{
 
         int [] array = {1,3,6,9,8,5,4,1,2,5,8,7};
 
-        firstObject.getNumber(array,15);
+        System.out.println("Number in the array is " + firstObject.isNumberInArray(array,7));;
         firstObject.sortArray(array);
 
         for (int i = 0; i < array.length; i++) {
